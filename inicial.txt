@@ -1,0 +1,7 @@
+#Fuentes y soporte de idiomas:
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji
+sudo nano /etc/locale.gen
+sudo locale-gen
+
+#Instalar yay
+pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
